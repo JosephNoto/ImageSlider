@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.main-banner {
+  margin: 0 auto;
+  width: 1200px;
+  height: 400px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-banner .imgBan {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  transition: all ease-in-out 500ms;
+  -webkit-transition: all ease-in-out 500ms;
+}
+
+.main-banner #imgBan3 {
+  background-image: url(img/banner3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-banner #imgBan2 {
+  background-image: url(img/banner2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-banner #imgBan1 {
+  background-image: url(img/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
